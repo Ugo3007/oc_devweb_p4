@@ -1063,6 +1063,32 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .col-sm-6 > a {
+        width: 345px;
+        margin: 0 auto;
+    }
+
+    .col-sm-6 > a > img{
+        width: 345px;
+        height: 345px;
+        margin: 0;
+    }
+
+    #bloc-5-cta  .row {
+        margin: 0 15px;
+    }
+
+    #bloc-8 .row.row-no-gutters.social {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #title2, #citation, #title {
+        max-width: 476px;
+        width: 100%;
+        padding: 0 10px;
+    }
 }
 
 @media (max-width: 400px) {
